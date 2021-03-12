@@ -4,7 +4,6 @@
 }
 /* チェックボックスの代わりを成すラベル */
 .poke-checker input[type="checkbox"] {
-  display: none;
   cursor: pointer;
   display: inline-block;
   position: absolute;
@@ -20,7 +19,7 @@
   width: 20px;
   height: 20px;
   margin-top: -10px;
-  left: 0;
+  left: -4px;
   top: 50%;
   border: 1px solid;
   border-color: #585753; /* 枠の色変更 お好きな色を */
@@ -36,7 +35,7 @@
   height: 9px;
   margin-top: -9px;
   top: 50%;
-  left: 3px;
+  left: -1px;
   transform: rotate(-45deg);
   border-bottom: 3px solid;
   border-left: 3px solid;
